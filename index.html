@@ -409,7 +409,7 @@
       </div>
    </footer>
    <!-- Модельне вікно -->
-   <div class="backdrop iss-hidden" data-modal>
+   <div class="backdrop is-hidden" data-modal>
       <div class="modal-box">
          <button type="button" class="modal-close-button" data-modal-close>
             <svg class="model-icon-close-button" width="18" height="18">
@@ -449,16 +449,18 @@
                   </span>
                </span>
             </label>
-               <label class="modal-form-box-messege" for="user-messege">
-                  <span class="modal-form-input-text">Коментар</span>
-                  <textarea class="modal-form-messege" id="user-messege" title="Введіть тк" name="messege"
-                     placeholder=""></textarea>
-               </label>
-               <label for="user-policy">
-                  <input id="user-policy" name="user-policy" type="checkbox">
-                  <span>Погоджуюся з розсилкою та приймаю <a href="">Умови договору</a></span>
-               </label>
-            <button type="submit">Відправити</button>
+            <label class="modal-form-box-messege" for="user-messege">
+               <span class="modal-form-input-text">Коментар</span>
+               <textarea class="modal-form-messege" id="user-messege" name="messege"
+                  placeholder="Введіть текст"></textarea>
+            </label>
+            <input class="modal-form-check visually-hidden" id="user-policy" name="user-policy" type="checkbox">
+            <label class="modal-form-box-check " for="user-policy">
+               <span class="modal-form-check-text">Погоджуюся з розсилкою та приймаю&nbsp;<a class="modal-form-check-link"
+                     href="">Умови договору</a>
+               </span>
+            </label>
+            <button class="modal-submit-button" type="submit">Відправити</button>
          </form>
       </div>
    </div>
