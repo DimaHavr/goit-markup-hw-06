@@ -402,23 +402,23 @@
                </li>
             </ul>
          </div>
-         <form class="footer-form">
+         <div class="footer-form-box">
             <p class="footer-form-text">Підпишіться на розсилку</p>
-            <div class="footer-form-box">
-               <label for="user-email">
-                  <input class="footer-form-input" id="user-email" type="email" name="email" placeholder="E-mail"
-                     minlength="3" required>
+            <form class="footer-form">
+               <label class="footer-form-label" for="user-email-subscribe">
+                  <input class="footer-form-input" id="user-email-subscribe" type="email" name="email-subscribe"
+                     placeholder="E-mail" minlength="3" required>
                </label>
                <button class="footer-form-button" type="submit">Підписатися
                   <svg class="footer-form-button-icon" width="24" height="24">
                      <use href="./images/symbol-defs.svg#icon-icon-send"></use>
                   </svg>
                </button>
-   
-            </div>
-   
-         </form>
-   
+            </form>
+         </div>
+
+
+
       </div>
    </footer>
    <!-- Модельне вікно -->
@@ -429,9 +429,8 @@
                <use href="./images/symbol-defs.svg#icon-close-black"></use>
             </svg>
          </button>
-
+         <p class="modal-area-text">Залиште свої дані, ми вам передзвонимо</p>
          <form>
-            <p class="modal-area-text">Залиште свої дані, ми вам передзвонимо</p>
             <label class="modal-form-box" for="user-name">
                <span class="modal-form-input-text">Ім'я</span>
                <span class="modal-form-input-box">
